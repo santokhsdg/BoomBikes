@@ -1,6 +1,6 @@
 # Boom Bikes Demand Prediction
 >The case study aims at building a Multivariate Linear Regression (MLR) model for predicting demand on
-> a given day using historical data of 2 years. The modelling focuses identifying the key factors and their corresponding 
+> a given day using historical data of 2 years. The modelling focuses on identifying the key factors and their corresponding 
 > contribution to the demand of bikes.
 
 
@@ -15,7 +15,7 @@
 shared use to individuals on a short term basis for a price or free.
 - Modelling demand for shared bikes with the available independent variables 
 which will be used by the management to understand how exactly the demands vary with different features.
-- Analysis uses statsmodel library for model preparation and its statistical analysis
+- Analysis uses statsmodel library for model preparation and its statistical analysis.
 - RFE Recursive Feature Elimination is extensively used for identifying key features.
 
 ### Assumption
@@ -27,6 +27,18 @@ which will be used by the management to understand how exactly the demands vary 
   - | Variables | R2          |  Adj R2 | Test R2 | p-value (p<5%) | VIF<5 |
     | ----------- | ----------- |---------|---------|----------------|------|
     | 7         | 0.809       |   0.806 |0.81   |  True          |True |
+  
+  - | Features | Coefficients|
+    | ----------- | ----------- |
+    |atemp|0.4593|
+    |season_spring|-0.1562|
+    |mnth_july|-0.0964|
+    |hum|-0.1683|
+    |weathersit_snow|-0.1740|
+    |windspeed|-0.1156|
+    |yr|0.2344|
+ 
+   
   
 
 

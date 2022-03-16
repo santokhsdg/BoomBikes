@@ -52,9 +52,5 @@ which will be used by the management to understand how exactly the demands vary 
 - LibreOffice - version 7.2.3
 
 
-## Acknowledgements
-Thanks to UpGrad Team and Tutors of IIITB for the guidance all the way through.
-
-
 ## Contact
 Created by [@santokhsdg] - feel free to contact me!
